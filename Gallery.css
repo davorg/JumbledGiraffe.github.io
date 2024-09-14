@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(241, 243, 194);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px; 
+
+}/* Setting background color of website, establishing fonts to be used, and using margin to get rid of gap between header and top */
+
+#logo {
+    margin: 0px; 
+    padding: 20px;
+    font-family: sans-serif;
+    font-size:3vw;
+       /* margin gets rid of gap between header and top */
+}
+
+body > header {
+    background-color: rgb(161, 214, 178);
+    color: rgb(31, 31, 55);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* Setting background color of logo and colour of logo text itself */
+}
+
+
+.navbutton {
+    color:rgb(31, 31, 55) ;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 12px;
+} /* Changing the colour of the top nav bar text, removing the purple line from visiting the site before, removing BULLET POINTS???? */
+
+#nav-ul {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+    padding:0;
+    margin: 0;
+    font-size: 1.5vw;
+}
+/* For the top nav bar, spaces out options and removes bullet points */
+
+
+body > footer {
+    background-color: rgb(232, 184, 109);
+    display: flex;
+}
+
+.botbox{
+    color:rgb(31, 31, 55) ;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 12px;
+}
+
+#botname{
+    padding:2%;
+}
+
+#footer-ul {
+    display:flex;
+    list-style:none;
+    justify-content:space-around;
+    padding: 20px;
+    width: 200px;
+    
+}
+
+#main-content {
+    display: flex;
+    justify-content:flex-start;
+    gap:5%;
+} /* Puts Filter Bar on Side */
+
+#Filterbar{
+    background-color:rgb(206, 223, 159) ;
+    padding:2%;
+    width:10vw;
+}
+/* Puts space between filter bar and main content  */
+
+
+#maintext{
+    padding-right:5%;
+}
+
+#picslay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5%;
+}
+
+#forpad{
+    padding:10px;
+}
+
+#footer-ul {
+    display:flex;
+    list-style:none;
+    justify-content:space-around;
+    align-content:baseline;
+    padding:50%;
+    font-size:1.5vw;
+    gap:10%
+}
+
+body>main>div>aside>section>nav>ul{
+    text-decoration: none;
+    list-style-type: style bullet;
+}
